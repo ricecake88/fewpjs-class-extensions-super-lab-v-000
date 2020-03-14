@@ -13,12 +13,16 @@ class Deciduous extends Tree {
   constructor(species, name)  {
     super(species);
     this.name = name;
+  }
+  
+  static definition() {
     
   }
 }
 
 class Evergreen extends Tree {
-  constructor() {
-    
+  constructor(species, name) {
+    super(species);
+    this.name = name;
   }
 }
